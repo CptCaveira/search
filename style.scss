@@ -1,20 +1,83 @@
-#grid {
-    display: inline-block;
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-}
-
-.links {
-    text-align: right;
-    float: right;
-}
-
-.main {
-    text-align: center;
+* { 
+    box-sizing: border-box;
 }
 
 a {
     text-decoration: none;
     color: black;
 }
+
+#grid {
+    overflow: auto;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    grid-template-columns: auto 30px 30px;
+}
+
+.links {
+    text-align: right;
+    float: right;
+    margin-top : 15px;
+    margin-right : 25px;
+}
+
+.links:hover{
+    text-decoration: underline;
+}
+
+.main {
+    text-align: center;
+    margin-top : 154px;
+}
+
+
+.searchbox {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 540px;
+    height: 46px;
+    border: 1px;
+    border-color:lightgrey;
+    border-style: solid;
+    border-radius: 30px
+    
+}
+
+.mag{
+    margin-top: 2.5%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    float: left;
+}
+
+.search {
+    width: 400px;
+    text-align: left;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    margin-right: 5%;
+    border: none;
+}
+.search:focus{
+    outline: none;
+}
+
+.button {
+    text-align: center;
+    border-radius: 5px;
+    width: 127.39px;
+    height: 36px;
+    margin-top: 20px;
+    border: 1px solid transparent;
+
+    background-color: #F8F9FA;
+}
+
+.button:hover {
+    cursor: pointer;
+    border: 1px solid lightgrey;
+
+}
+
