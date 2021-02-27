@@ -8,17 +8,19 @@
     <body>
         <div id="grid">
             <div class="links">
-                <a href="#">Images</a>
+                <a href="#">Advanced Search</a>
             </div>
             <div class="links">
-                <a href="#">Advanced Search</a>
+                <a href="#">Images</a>
             </div>
             <div class="main">
                 <img src="googlelogo_color_272x92dp.png" alt="Google Logo" width=272px>
                 <form action="https://google.com/search">
-                    <input type="text" name="q">
-                    <br>
-                    <input type="submit" value="Google Search">
+                    <div class="searchbox">
+                        <img src="greymagnifier.png" alt="grey magnifier" width=20px class="mag"> 
+                        <input type="text" name="q" class="search">
+                    </div>
+                    <input type="submit" value="Google Search" class="button">
                 </form>
             </div>
         </div>
