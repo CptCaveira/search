@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="style.css">
+        <title>Search</title>
+    </head>
+    <body>
+        <div id="grid">
+            <div class="banner">
+                <img src="googlelogo_color_272x92dp.png" alt="Google Logo" width=92px style="margin:1% 1%">
+                <div class="links adv">
+                    <a href="index.html">Main</a>
+                </div>
+                <div class="links adv">
+                    <a href="images.html">Images</a>
+                </div>
+            </div>
+            <div class="advsearch">
+                <p class="advtext">Advanced Search</p>
+            </div>
+            <div class="advance">
+                <div class="title">
+                    <span style="margin-right: 47.1%; font-size : 16px">Find pages with...</span>
+                    <span style="font-weight: bold; color : #777777">To do this in the search box.</span>
+                </div>
+                <div class="blank"></div>
+                <form action="https://google.com/search">
+                    <div class="advopt">
+                        <label for"allw" class"label">all these words:</label><input type="text" name="as_q" id="allw" class="advsel">
+                        <span>Type the important words: tri-colour rat terrier</span>
+                    </div><br>
+                    <div class="advopt">
+                        <label for"exactw" class"label">this exact word or phrase:</label><input type="text" name="as_epq" id="exactw"class="advsel">
+                        <span>Put exact words in quotes: "rat terrier"</span>
+                    </div><br>
+                    <div class="advopt">
+                        <label for"anyw" class"label">any of these words:</label><input type="text" name="as_oq" id="anyw"class="advsel">
+                        <span>Type OR between all the words you want: miniature OR standard</span>
+                    </div><br> 
+                    <div class="advopt">
+                        <label for"nonew" class"label">none of these words:</label><input type="text" name="as_eq" id="nonew"class="advsel">
+                        <span>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</span>
+                    </div><br>   
+                    <input type="submit" value="Advanced Search" class="advbutton">  
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
